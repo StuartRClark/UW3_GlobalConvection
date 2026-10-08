@@ -1,0 +1,11 @@
+# Underworld3 and notebook-generated files
+.meshes/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+
+# Local environment and editor files
+.pixi/
+.venv/
+.DS_Store
