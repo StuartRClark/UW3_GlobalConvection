@@ -53,7 +53,7 @@ Using the same runtime for both Underworld3 and Jupyter avoids importing Underwo
 From the Underworld3 checkout, launch the notebook with:
 
 ```bash
-pixi run -e runtime jupyter notebook ../annulus_2D/earth_annulus_convection.ipynb
+pixi run -e runtime jupyter notebook ../earth_annulus_convection.ipynb
 ```
 
 To execute it non-interactively and refresh its stored outputs:
@@ -61,7 +61,7 @@ To execute it non-interactively and refresh its stored outputs:
 ```bash
 pixi run -e runtime jupyter nbconvert \
   --to notebook \
-  --execute ../annulus_2D/earth_annulus_convection.ipynb \
+  --execute ../earth_annulus_convection.ipynb \
   --inplace \
   --ExecutePreprocessor.timeout=900
 ```
@@ -69,7 +69,7 @@ pixi run -e runtime jupyter nbconvert \
 Run the smoke test with:
 
 ```bash
-pixi run -e runtime python ../annulus_2D/test_annulus_convection.py --steps 20
+pixi run -e runtime python ../test_annulus_convection.py --steps 20
 ```
 
 The test checks the temperature endpoints, viscosity probes, Rayleigh number, four-sector surface velocity setup, and final normalized temperature range.

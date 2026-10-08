@@ -84,7 +84,7 @@ The main modelling choice is that temperature and viscosity are normalized inter
 From the Underworld3 checkout, open the notebook interactively:
 
 ```bash
-pixi run -e runtime jupyter notebook ../annulus_2D/earth_annulus_convection.ipynb
+pixi run -e runtime jupyter notebook ../earth_annulus_convection.ipynb
 ```
 
 For a repeatable, non-interactive execution that refreshes the stored outputs:
@@ -92,7 +92,7 @@ For a repeatable, non-interactive execution that refreshes the stored outputs:
 ```bash
 pixi run -e runtime jupyter nbconvert \
   --to notebook \
-  --execute ../annulus_2D/earth_annulus_convection.ipynb \
+  --execute ../earth_annulus_convection.ipynb \
   --inplace \
   --ExecutePreprocessor.timeout=900
 ```
@@ -100,7 +100,7 @@ pixi run -e runtime jupyter nbconvert \
 The notebook defaults to ten time steps on a deliberately coarse mesh. For a longer or more resolved calculation, change `steps` or `cell_size_km` in the run cell. The same model builder is also available as a script:
 
 ```bash
-pixi run -e runtime python ../annulus_2D/test_annulus_convection.py --steps 20
+pixi run -e runtime python ../test_annulus_convection.py --steps 20
 ```
 
 ## 5. The final visualization request
