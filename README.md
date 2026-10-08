@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Underworld3 annulus model built with ChatGPT
 
 This repository demonstrates how to set up [Underworld3](https://github.com/underworldcode/underworld3) with ChatGPT and run a small 2-D annulus convection model representing the Earth's mantle.
@@ -82,7 +81,3 @@ The test checks the temperature endpoints, viscosity probes, Rayleigh number, fo
 ![Configured radial viscosity profile](images/viscosity_profile.png)
 
 The tested configuration reports `Earth annulus convection test: PASS` with slow and fast surface velocities of 2 and 6 cm/yr and viscosity probes of `[1.0, 0.01, 1.0] x 10^21 Pa s`.
-=======
-# UW3_GlobalConvection
-Underworld3 global convection
->>>>>>> origin/main
