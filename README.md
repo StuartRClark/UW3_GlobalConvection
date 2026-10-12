@@ -21,6 +21,7 @@ Velocity arrows in the figures are normalized for display only. The longest arro
 - [`earth_annulus_convection.ipynb`](earth_annulus_convection.ipynb) — self-contained executable notebook.
 - [`test_annulus_convection.py`](test_annulus_convection.py) — command-line smoke/regression test.
 - [`underworld3_chatgpt_build_guide.md`](underworld3_chatgpt_build_guide.md) — prompt-by-prompt setup explanation.
+- [`docs/global_convection_technical_note.md`](docs/global_convection_technical_note.md) — fill-in technical note skeleton for a global convection model.
 - [`images/initial_final_models.png`](images/initial_final_models.png) — initial and final model output.
 - [`images/viscosity_profile.png`](images/viscosity_profile.png) — configured viscosity profile.
 
